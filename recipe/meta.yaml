@@ -1,5 +1,5 @@
 {% set name = "hda" %}
-{% set version = "2.39" %}
+{% set version = "2.40" %}
 {% set python_min = "3.6" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: c41d4ed3bd1d3591340f4fa9664c0ace7ae853d530709422efbc93e3d56af706
+  sha256: 73be622a783466b611397d841a23a135f396e10c478befadb71a0cd525f474db
 
 build:
   number: 0
